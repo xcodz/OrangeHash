@@ -10,45 +10,42 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Ensure CRLF line endings for .bat (defensive)
-      - name: Normalize line endings
-        shell: pwsh
+      - name: Smoke: OS & certutil present
+        shell: cmd
         run: |
-          $p = "md5.bat"
-          if (Test-Path $p) {
-            (Get-Content $p -Raw).Replace("`n","`r`n") | Set-Content $p -NoNewline
-          }
+          ver
+          where certutil
 
       - name: Test literal string (abc)
         shell: cmd
         run: |
           call md5.bat abc > out.txt
           set /p H=<out.txt
-          if /I not "%H%"=="900150983cd24fb0d6963f7d28e17f72" (
-            echo Expected 900150983cd24fb0d6963f7d28e17f72, got "%H%"
-            exit /b 1
-          )
+          echo Got: %H%
+          if /I not "%H%"=="900150983cd24fb0d6963f7d28e17f72" exit /b 1
 
-      - name: Test literal string with spaces
+      - name: Test literal string with spaces ("hello world")
         shell: cmd
         run: |
           call md5.bat "hello world" > out.txt
           set /p H=<out.txt
-          if /I not "%H%"=="5eb63bbbe01eeed093cb22bb8f5acdc3" (
-            echo Expected 5eb63bbbe01eeed093cb22bb8f5acdc3, got "%H%"
-            exit /b 1
-          )
+          echo Got: %H%
+          if /I not "%H%"=="5eb63bbbe01eeed093cb22bb8f5acdc3" exit /b 1
+
+      # Write a file WITHOUT a trailing newline so the hash is for "hello" exactly
+      - name: Create test file (no newline)
+        shell: cmd
+        run: |
+          (echo|set /p=hello) > test.txt
+          type test.txt
 
       - name: Test file hashing
         shell: cmd
         run: |
-          > test.txt echo hello
           call md5.bat "test.txt" > out.txt
           set /p H=<out.txt
-          if /I not "%H%"=="5d41402abc4b2a76b9719d911017c592" (
-            echo Expected 5d41402abc4b2a76b9719d911017c592, got "%H%"
-            exit /b 1
-          )
+          echo Got: %H%
+          if /I not "%H%"=="5d41402abc4b2a76b9719d911017c592" exit /b 1
 
       - name: Test help
         shell: cmd
