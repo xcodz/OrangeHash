@@ -1,4 +1,4 @@
-# md5.bat — print only the MD5 (Windows)
+# md5 — print only the MD5 (Windows)
 
 Tiny Windows batch script that prints just the 32-char **lowercase** MD5 for either:
 - a **literal string** (quote it if it has spaces), or
