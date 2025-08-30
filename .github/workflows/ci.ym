@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Test literal string (abc)
+        shell: cmd
+        run: |
+          for /f "delims=" %%H in ('md5.bat abc') do set H=%%H
+          if /I not "%%H"=="900150983cd24fb0d6963f7d28e17f72" exit /b 1
+
+      - name: Test literal string with spaces
+        shell: cmd
+        run: |
+          for /f "delims=" %%H in ('md5.bat "hello world"') do set H=%%H
+          if /I not "%%H"=="5eb63bbbe01eeed093cb22bb8f5acdc3" exit /b 1
+
+      - name: Test file hashing
+        shell: cmd
+        run: |
+          echo hello> test.txt
+          for /f "delims=" %%H in ('md5.bat "test.txt"') do set H=%%H
+          if /I not "%%H"=="5d41402abc4b2a76b9719d911017c592" exit /b 1
+
+      - name: Test help
+        shell: cmd
+        run: |
+          md5.bat -h >nul
