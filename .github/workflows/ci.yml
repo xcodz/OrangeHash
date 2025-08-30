@@ -10,13 +10,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Smoke: OS & certutil present
+      - name: "Smoke: OS & certutil present"
         shell: cmd
         run: |
           ver
           where certutil
 
-      - name: Test literal string (abc)
+      - name: "Test literal string (abc)"
         shell: cmd
         run: |
           call md5.bat abc > out.txt
@@ -24,7 +24,7 @@ jobs:
           echo Got: %H%
           if /I not "%H%"=="900150983cd24fb0d6963f7d28e17f72" exit /b 1
 
-      - name: Test literal string with spaces ("hello world")
+      - name: 'Test literal string with spaces ("hello world")'
         shell: cmd
         run: |
           call md5.bat "hello world" > out.txt
@@ -32,14 +32,13 @@ jobs:
           echo Got: %H%
           if /I not "%H%"=="5eb63bbbe01eeed093cb22bb8f5acdc3" exit /b 1
 
-      # Write a file WITHOUT a trailing newline so the hash is for "hello" exactly
-      - name: Create test file (no newline)
+      - name: "Create test file (no newline)"
         shell: cmd
         run: |
           (echo|set /p=hello) > test.txt
           type test.txt
 
-      - name: Test file hashing
+      - name: "Test file hashing"
         shell: cmd
         run: |
           call md5.bat "test.txt" > out.txt
@@ -47,7 +46,7 @@ jobs:
           echo Got: %H%
           if /I not "%H%"=="5d41402abc4b2a76b9719d911017c592" exit /b 1
 
-      - name: Test help
+      - name: "Test help"
         shell: cmd
         run: |
           md5.bat -h >nul
