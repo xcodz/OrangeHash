@@ -13,18 +13,25 @@ It prints **only the 32-character lowercase MD5 hash** — nothing else. 🎯
 - 🔤 Hash a **literal string** (with or without quotes)
 - 📂 Hash a **file** by path
 - 📦 **Installer** available (`md5-installer.exe`) — one-click setup
+- 🖱 Optional **Explorer context menu** (right-click → “MD5 Hash (copy & show)”)
 - 🛠 Uses only built-in `certutil` (ships with Windows)
-- 🖥 Works on Windows 10 / 11 / Server (no PowerShell required)
+- 🖥 Works on Windows 10 / 11 / Server (no PowerShell required for CLI tool)
 - 🧹 Clean output: just the hash on a single line
 
 ---
 
 ## 📥 Installation
 
-### Option 1 — Quick Installer
+### Option 1 — Quick Installer (Recommended)
 Download the [**latest release installer**](https://github.com/xcodz/md5-bat/releases)  
 Run `md5-installer.exe` → it will copy `md5.bat` into `C:\Windows\System32` so you can call `md5` globally from CMD.  
-⚠️ Requires admin rights (writes to System32).
+⚠️ Requires admin rights (writes to System32).  
+
+During setup, you can also check:  
+- **Shell integration** → adds right-click “MD5 Hash (copy/show)” to File Explorer.  
+  (On Windows 11, it appears under **Show more options**).  
+
+Re-running the installer later will offer **Modify / Repair / Remove**. Choosing *Remove* will uninstall everything.
 
 ### Option 2 — Manual
 1. Download [`md5.bat`](./md5.bat)  
@@ -66,7 +73,7 @@ C:\> md5 "C:\Windows\notepad.exe"
 ---
 
 ## 🔍 Why Batch?
-- No PowerShell needed  
+- No PowerShell needed for the CLI tool  
 - No external dependencies  
 - Runs everywhere Windows + `certutil` exists  
 
