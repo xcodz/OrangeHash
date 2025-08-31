@@ -1,4 +1,4 @@
-# 🔑 md5 — MD5 for Windows Command Line
+# 🔑 MD5 for Windows Command Line & Windows Explorer
 
 [![CI](https://github.com/xcodz/md5-bat/actions/workflows/ci.yml/badge.svg)](https://github.com/xcodz/md5-bat/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
