@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![GitHub release](https://img.shields.io/github/v/release/xcodz/md5-bat.svg)](https://github.com/xcodz/md5-bat/releases)
 
-A tiny Windows batch script that adds a simple `md5` command to your CMD.  
+A tiny Windows batch script that adds a simple `md5` command to your CMD & Windows Explorer.  
 It prints **only the 32-character lowercase MD5 hash** — nothing else. 🎯
 
 ---
