@@ -1,4 +1,4 @@
-# OrangeHash 🍊 — Windows Hash Viewer (MD5, SHA-1, SHA-256)
+# 🍊 OrangeHash - Windows Hash Viewer (MD5, SHA-1, SHA-256)
 
 [![CI](https://github.com/xcodz/md5-bat/actions/workflows/ci.yml/badge.svg)](https://github.com/xcodz/md5-bat/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
@@ -22,11 +22,10 @@ A single EXE build is produced for Release (no external DLLs required).
 
 ## 🖼 Screenshot
 
-```md
-![OrangeHash Screenshot](docs/screenshot.png)
-```
+<p align="center">
+  <img src="https://github.com/xcodz/md5-bat/blob/main/docs/screenshot.png" alt="OrangeHash Screenshot" width="571"/>
+</p>
 
----
 
 ## 📥 Installation
 
@@ -54,7 +53,8 @@ A single EXE build is produced for Release (no external DLLs required).
   The app opens showing MD5, SHA-1, and SHA-256.
 
 ### 🔤 Command Line
-If you installed the optional `md5.bat`:
+If you installed the optional `md5.bat` 
+(Currently, only MD5 is supported in CLI mode):
 
 ```bat
 C:\> md5 abc
