@@ -4,6 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![GitHub release](https://img.shields.io/github/v/release/xcodz/md5-bat.svg)](https://github.com/xcodz/md5-bat/releases)
 <img alt="GitHub code search count" src="https://img.shields.io/github/search?query=OrangeHash">
+<img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json">
 
 **OrangeHash** is a lightweight Windows desktop application for quickly viewing file hashes 🎯.  
 It supports **MD5, SHA-1, and SHA-256**, runs on Windows 10 and newer, and integrates with File Explorer’s right-click menu.  
