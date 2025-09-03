@@ -1,0 +1,17 @@
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.WinForms\bin\Debug\net48\MdHash.WinForms.exe.config
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.WinForms\bin\Debug\net48\MdHash.WinForms.exe
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.WinForms\bin\Debug\net48\MdHash.WinForms.pdb
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.WinForms\bin\Debug\net48\MdHash.Core.Framework.dll
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.WinForms\bin\Debug\net48\MdHash.Core.Framework.pdb
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.WinForms\obj\Debug\net48\MdHash.WinForms.csproj.AssemblyReference.cache
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.WinForms\obj\Debug\net48\MdHash.WinForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.WinForms\obj\Debug\net48\MdHash.WinForms.AssemblyInfoInputs.cache
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.WinForms\obj\Debug\net48\MdHash.WinForms.AssemblyInfo.cs
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.WinForms\obj\Debug\net48\MdHash.WinForms.csproj.CoreCompileInputs.cache
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.WinForms\obj\Debug\net48\MdHash.W.D6108071.Up2Date
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.WinForms\obj\Debug\net48\MdHash.WinForms.exe
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.WinForms\obj\Debug\net48\MdHash.WinForms.pdb
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.WinForms\obj\Debug\net48\MdHash.WinForms.exe.config
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.WinForms\obj\Debug\net48\MdHash.WinForms.MainForm.resources
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.WinForms\obj\Debug\net48\MdHash.WinForms.csproj.GenerateResource.cache
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.WinForms\obj\Debug\net48\MdHash.WinForms.Properties.Resources.resources

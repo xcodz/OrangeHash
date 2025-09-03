@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>favicon(1).ico</ApplicationIcon>
+    <LangVersion>8.0</LangVersion>
+    <StartupObject>MdHash.WinForms.Program</StartupObject>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Title>OrangeHash</Title>
+    <Copyright>© 2025 Milad Ahmadipour</Copyright>
+    <PackageProjectUrl>https://github.com/xcodz/md5-bat/</PackageProjectUrl>
+    <PackageIcon>OrangeHash-Logo-128.png</PackageIcon>
+    <RepositoryUrl>https://github.com/xcodz/md5-bat/</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>v2.1.0</PackageReleaseNotes>
+    <AssemblyVersion>2.1.0</AssemblyVersion>
+    <FileVersion>2.1.0</FileVersion>
+    <AssemblyName>OrangeHash</AssemblyName>
+    <Description>OrangeHash</Description>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="favicon(1).ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\OrangeHash-Logo-128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MdHash.Core.Framework\MdHash.Core.Framework.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Fody" Version="6.8.0">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Costura.Fody" Version="5.7.0">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
