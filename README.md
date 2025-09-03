@@ -3,7 +3,7 @@
 [![CI](https://github.com/xcodz/md5-bat/actions/workflows/ci.yml/badge.svg)](https://github.com/xcodz/md5-bat/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![GitHub release](https://img.shields.io/github/v/release/xcodz/md5-bat.svg)](https://github.com/xcodz/md5-bat/releases)
-<img alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/:user/:repo/total">
+<img alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/:xcodz/:OrangeHash/total">
 
 **OrangeHash** is a lightweight Windows desktop application for quickly viewing file hashes 🎯.  
 It supports **MD5, SHA-1, and SHA-256**, runs on Windows 10 and newer, and integrates with File Explorer’s right-click menu.  
