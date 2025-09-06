@@ -8,7 +8,7 @@
 <img alt="GitHub code search count" src="https://img.shields.io/github/search?query=OrangeHash">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/xcodz/OrangeHash">
 
-**OrangeHash** is a lightweight Windows desktop application for quickly viewing file hashes 🎯.  
+**OrangeHash** is a lightweight Windows desktop application for quickly viewing file hashes 🎯
 It supports **MD5, SHA-1, and SHA-256**, runs on Windows 10 and newer, and integrates with File Explorer’s right-click menu.  
 A single EXE build is produced for Release (no external DLLs required).
 
