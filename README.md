@@ -68,7 +68,7 @@ C:\> md5 "hello world"
 5eb63bbbe01eeed093cb22bb8f5acdc3
 
 C:\> md5 "C:\Windows\notepad.exe"
-<file hash here>
+d43b8f81cebb77c7d7c21846cc9fc38e
 ```
 
 ### Inside the App
