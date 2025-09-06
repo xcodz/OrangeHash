@@ -1,8 +1,8 @@
 # 🍊 OrangeHash - Windows Hash Viewer (MD5, SHA-1, SHA-256)
 
-[![CI](https://github.com/xcodz/md5-bat/actions/workflows/ci.yml/badge.svg)](https://github.com/xcodz/md5-bat/actions)
+[![CI](https://github.com/xcodz/OrangeHash/actions/workflows/ci.yml/badge.svg)](https://github.com/xcodz/OrangeHash/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-[![GitHub release](https://img.shields.io/github/v/release/xcodz/md5-bat.svg)](https://github.com/xcodz/md5-bat/releases)
+[![GitHub release](https://img.shields.io/github/v/release/xcodz/OrangeHash.svg)](https://github.com/xcodz/OrangeHash/releases)
 <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/xcodz/OrangeHash">
 <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/xcodz/OrangeHash">
 <img alt="GitHub code search count" src="https://img.shields.io/github/search?query=OrangeHash">
@@ -16,9 +16,11 @@ A single EXE build is produced for Release (no external DLLs required).
 
 ## ✨ Features
 - 🔑 View **MD5, SHA-1, and SHA-256** at a glance
+- 🖐️ **Drag and Drop** a file directly onto the app window
+- 📊 **Progress bar** for hashing very large files
 - 📋 Click any hash to copy it to the clipboard
-- 💾 Save button writes `<filename>_hash.txt` next to the file
-- 📂 Accepts a file path as the first argument (context menu friendly)
+- 💾 Save hashes to `<filename>_hash.txt`
+- 🔗 **Click the "Saved" status message** to open the file's location
 - 🖱 Optional File Explorer context menu entry (“OrangeHash”)
 - ⚙️ Optional `md5.bat` shim for launching from CMD (`md5.bat <path>`)
 
@@ -26,15 +28,17 @@ A single EXE build is produced for Release (no external DLLs required).
 
 ## 🖼 Screenshot
 
+*Note: Screenshot needs to be updated to show the new progress bar.*
+
 <p align="center">
-  <img src="https://github.com/xcodz/md5-bat/blob/main/docs/screenshot.png" alt="OrangeHash Screenshot" width="571"/>
+  <img src="https://github.com/xcodz/OrangeHash/blob/main/docs/screenshot.png" alt="OrangeHash Screenshot" width="571"/>
 </p>
 
 
 ## 📥 Installation
 
 ### Option 1 — Installer (Recommended)
-- Download **`OrangeHash-Setup.exe`** from [Releases](https://github.com/xcodz/md5-bat/releases).
+- Download **`OrangeHash-Setup.exe`** from [Releases](https://github.com/xcodz/OrangeHash/releases).
 - During setup you can optionally:
   - Add File Explorer context menu entry (“OrangeHash”).
   - Install `md5.bat` to `System32` to launch from CMD.
@@ -56,6 +60,13 @@ A single EXE build is produced for Release (no external DLLs required).
 - Right-click any file → **OrangeHash**  
   The app opens showing MD5, SHA-1, and SHA-256.
 
+### Inside the App
+- **Drag and drop a file** onto the window.
+- Or, if launched without an argument, click the main label to **select a file**.
+- 📋 Click any hash box to copy to the clipboard.
+- 💾 Click **Save** to write `<filename>_hash.txt` next to the source file.
+- 🔗 After saving, **click the status message** to open the folder containing the new text file.
+
 ### 🔤 Command Line
 If you installed the optional `md5.bat` 
 (Currently, only MD5 is supported in CLI mode):
@@ -71,11 +82,6 @@ C:\> md5 "C:\Windows\notepad.exe"
 d43b8f81cebb77c7d7c21846cc9fc38e
 ```
 
-### Inside the App
-- 📋 Click any hash box to copy it to the clipboard.
-- 💾 Click **Save** to write `<filename>_hash.txt` next to the source file.
-- If launched without an argument, click the “No file provided — click to select” label to choose a file.
-
 ---
 
 ## 📜 License
@@ -87,4 +93,4 @@ Released under the [MIT License](./LICENSE)
 ## 🙏 Acknowledgments
 - 🖊 Built with **C#** and **WinForms** (.NET Framework 4.8)  
 - 📦 **Inno Setup** for packaging  
-- ⚡ **Costura.Fody** for single-file embedding  
+- ⚡ **Costura.Fody** for single-file embedding
