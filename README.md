@@ -28,7 +28,6 @@ A single EXE build is produced for Release (no external DLLs required).
 
 ## 🖼 Screenshot
 
-*Note: Screenshot needs to be updated to show the new progress bar.*
 
 <p align="center">
   <img src="https://github.com/xcodz/OrangeHash/blob/main/docs/screenshot.png" alt="OrangeHash Screenshot" width="571"/>
