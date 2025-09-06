@@ -5,6 +5,17 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
+## [v2.2.0] - 2025-09-06
+### Added
+- 🖐️ **Drag and Drop**: Files can now be dragged directly onto the window to be hashed.
+- 📊 **Progress Bar**: A progress bar now appears for large files, providing visual feedback during hashing.
+- 🔗 **Clickable Save Link**: After saving a hash file, the status label becomes a clickable link that opens the file's location in Explorer.
+
+### Bug Fixed
+- 🐛 **Startup Behavior**: The application no longer hashes itself automatically when opened without a file argument.
+
+---
+
 ## [v2.1.0] - 2025-09-02
 ### Added
 - 🍊 Introduced **OrangeHash GUI application** (`OrangeHash.exe`)
