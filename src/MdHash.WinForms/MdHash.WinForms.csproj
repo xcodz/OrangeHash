@@ -14,9 +14,9 @@
     <PackageIcon>OrangeHash-Logo-128.png</PackageIcon>
     <RepositoryUrl>https://github.com/xcodz/md5-bat/</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageReleaseNotes>v2.1.0</PackageReleaseNotes>
-    <AssemblyVersion>2.1.0</AssemblyVersion>
-    <FileVersion>2.1.0</FileVersion>
+    <PackageReleaseNotes>v2.3.0</PackageReleaseNotes>
+    <AssemblyVersion>2.3.0</AssemblyVersion>
+    <FileVersion>2.3.0</FileVersion>
     <AssemblyName>OrangeHash</AssemblyName>
     <Description>OrangeHash</Description>
   </PropertyGroup>
@@ -35,6 +35,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MdHash.Core.Framework\MdHash.Core.Framework.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Fody" Version="6.8.0">

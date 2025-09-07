@@ -1,0 +1,9 @@
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.Core.Framework\bin\Release\net48\MdHash.Core.Framework.dll
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.Core.Framework\bin\Release\net48\MdHash.Core.Framework.pdb
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.Core.Framework\obj\Release\net48\MdHash.Core.Framework.csproj.AssemblyReference.cache
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.Core.Framework\obj\Release\net48\MdHash.Core.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.Core.Framework\obj\Release\net48\MdHash.Core.Framework.AssemblyInfoInputs.cache
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.Core.Framework\obj\Release\net48\MdHash.Core.Framework.AssemblyInfo.cs
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.Core.Framework\obj\Release\net48\MdHash.Core.Framework.csproj.CoreCompileInputs.cache
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.Core.Framework\obj\Release\net48\MdHash.Core.Framework.dll
+C:\Users\Milad\Downloads\md5-bat\v2-winform\src\MdHash.Core.Framework\obj\Release\net48\MdHash.Core.Framework.pdb

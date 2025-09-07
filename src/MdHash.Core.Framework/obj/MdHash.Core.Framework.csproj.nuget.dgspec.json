@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Milad\\Downloads\\md5-bat\\v2-winform\\src\\MdHash.Core.Framework\\MdHash.Core.Framework.csproj": {}
+    "C:\\Users\\Milad\\Downloads\\md5-bat\\v2-winform-6-9-2025-v2.2.0-github\\src\\MdHash.Core.Framework\\MdHash.Core.Framework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Milad\\Downloads\\md5-bat\\v2-winform\\src\\MdHash.Core.Framework\\MdHash.Core.Framework.csproj": {
+    "C:\\Users\\Milad\\Downloads\\md5-bat\\v2-winform-6-9-2025-v2.2.0-github\\src\\MdHash.Core.Framework\\MdHash.Core.Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Milad\\Downloads\\md5-bat\\v2-winform\\src\\MdHash.Core.Framework\\MdHash.Core.Framework.csproj",
+        "projectUniqueName": "C:\\Users\\Milad\\Downloads\\md5-bat\\v2-winform-6-9-2025-v2.2.0-github\\src\\MdHash.Core.Framework\\MdHash.Core.Framework.csproj",
         "projectName": "MdHash.Core.Framework",
-        "projectPath": "C:\\Users\\Milad\\Downloads\\md5-bat\\v2-winform\\src\\MdHash.Core.Framework\\MdHash.Core.Framework.csproj",
+        "projectPath": "C:\\Users\\Milad\\Downloads\\md5-bat\\v2-winform-6-9-2025-v2.2.0-github\\src\\MdHash.Core.Framework\\MdHash.Core.Framework.csproj",
         "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Milad\\Downloads\\md5-bat\\v2-winform\\src\\MdHash.Core.Framework\\obj\\",
+        "outputPath": "C:\\Users\\Milad\\Downloads\\md5-bat\\v2-winform-6-9-2025-v2.2.0-github\\src\\MdHash.Core.Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
