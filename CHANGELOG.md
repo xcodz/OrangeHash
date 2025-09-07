@@ -4,6 +4,25 @@ All notable changes to this project will be documented here.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
+##[2.3.0] — 2025-09-06
+###Added
+- SHA-384 and SHA-512 hashing support.
+- Algorithm selection checkboxes (MD5, SHA-1, SHA-256, SHA-384, SHA-512).
+- Lightweight settings persistence for selected algorithms.
+- “Hash Text” popup flow for hashing arbitrary text.
+- Placeholder text for unselected algorithms: "Not selected".
+
+Changed
+- Version metadata updated to 2.3.0 (WinForms csproj + Inno Setup).
+- UI label updated to show v2.3.
+- File hashing pipeline: SHA-384/512 now use IncrementalHash; MD5/SHA-1/SHA-256
+  use CryptoStream; algorithm creation prefers CNG for FIPS compatibility.
+
+Fixed
+- Designer error due to orphaned control references (removed stale init blocks).
+- Drag-to-move behavior adjusted to account for added controls.
+- SHA-384/512 file hashing failures resolved by replacing TransformBlock path
+  and adopting IncrementalHash/CNG.
 
 ## [v2.2.0] - 2025-09-06
 ### Added
