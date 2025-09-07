@@ -65,8 +65,8 @@ A single EXE build is produced for Release (no external DLLs required).
   The app opens and computes selected hashes.
 
 ### In the App
-- **Drag and drop** a file onto the window, or click the filename label to **select a file**.
-- Click **Hash Text** (top‑right link) to enter arbitrary text and compute selected hashes.
+- 🖐️ **Drag and drop** a file onto the window, or click the filename label to **select a file**.
+- ⌨️ Click **Hash Text** (top‑right link) to enter arbitrary text and compute selected hashes.
 - 📋 Click any hash box to copy the value to the clipboard.
 - 💾 Click **Save** to write results:
   - File input: writes `<filename>_hash.txt` next to the source file.
