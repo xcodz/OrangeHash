@@ -1,4 +1,4 @@
-# 🍊 OrangeHash v2.3.0 — Windows Hash Viewer (MD5, SHA‑1, SHA‑256, SHA‑384, SHA‑512)
+# 🍊 OrangeHash v2.3.0 - Windows Hash Viewer (MD5, SHA‑1, SHA‑256, SHA‑384, SHA‑512)
 
 [![CI](https://github.com/xcodz/OrangeHash/actions/workflows/ci.yml/badge.svg)](https://github.com/xcodz/OrangeHash/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
