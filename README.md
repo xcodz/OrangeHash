@@ -23,7 +23,7 @@ A single EXE build is produced for Release (no external DLLs required).
 - 💾 Save hashes to `<filename>_hash.txt`
 - 📂 Click the “Saved” status to open the file’s location
 - 🧩 Optional File Explorer context menu entry (“OrangeHash”)
-- 🧰 Optional `md5.bat` shim for launching from CMD (`md5.bat <path>`) — MD5 only
+- 🧰 Optional `md5.bat` shim for launching from CMD (`md5.bat <path>`) - MD5 only
 - 📝 “**Hash Text**” quick popup to hash arbitrary text (UTF‑8)
 - ✅ **Algorithm selection checkboxes**, persisted between runs
 - 🏷️ Unselected algorithms show a friendly placeholder: **“Not selected”**
